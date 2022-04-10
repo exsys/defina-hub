@@ -1,0 +1,52 @@
+[
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "cardId",
+                "type": "uint256"
+            }
+        ],
+        "name": "cardInfoes",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "cardId",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "camp",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "rarity",
+                "type": "uint256"
+            },
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "internalType": "uint256",
+                "name": "currentAmount",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "maxAmount",
+                "type": "uint256"
+            },
+            {
+                "internalType": "string",
+                "name": "cardURI",
+                "type": "string"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
