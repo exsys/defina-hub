@@ -9,9 +9,8 @@ const allRoutes = require("./routes/all-routes");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(compression());
-
 // middleware for express
+app.use(compression());
 app.use(express.json());
 app.use(express.text());
 app.use(express.urlencoded({ extended: true }));
